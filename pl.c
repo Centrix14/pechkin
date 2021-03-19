@@ -99,3 +99,7 @@ void pl_remove(char *msg_name) {
 
 	free(lptr);
 }
+
+int pl_is_exist(char *msg_name) {
+	return pl_read(msg_name) ? 1 : 0;
+}
