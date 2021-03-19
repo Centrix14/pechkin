@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include <string.h>
 
+#include "tl2/list.h"
 #include "st.h/st.h"
 #include "pl.h"
 
@@ -13,7 +15,7 @@ int main() {
 	char *values[] = {"It-msg", "is-msg", "a-msg", "Pechkin-msg", "test-msg"};
 
 	for (int i = 0; i < 5; i++)
-		pl_send(names[i], values[i], strlen(values[i]));
+		pl_send(names[i], values[i], strlen(values[i]) + 1);
 
 	st_end();
 	return 0;
