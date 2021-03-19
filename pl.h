@@ -8,10 +8,13 @@ typedef struct {
 
 void pl_send(char *name, void *value, size_t size);
 void *pl_read(char *msg_name);
+void pl_remove(char *msg_name);
 
 msg *pl_get(char *msg_name);
 list *pl_get_node(char *msg_name);
 
 void pl_free();
+
+int pl_is_exist(char *msg_name);
 
 #endif
