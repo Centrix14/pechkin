@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "tl2/list.h"
 #include "st.h/st.h"
 #include "pl.h"
 
