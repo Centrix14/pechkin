@@ -27,7 +27,7 @@ Pechkin is a very simple library it consists of a very small set of functions:
 1. To start, run the following command:
 
 ```
-git clone https://github.com/Centrix14/pechkin.git
+git clone --recursive https://github.com/Centrix14/pechkin.git
 ```
 
 2. Next, include the header file in the project:
