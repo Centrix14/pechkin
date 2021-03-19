@@ -1,6 +1,8 @@
 #ifndef __PECHKIN_MESSAGE_SEND_SYSTEM_HEADER_FILE_INCLUDED__
 #define __PECHKIN_MESSAGE_SEND_SYSTEM_HEADER_FILE_INCLUDED__
 
+#include "tl2/list.h"
+
 typedef struct {
 	char name[32];
 	void *value;
