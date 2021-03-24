@@ -86,6 +86,9 @@ void pl_remove(char *msg_name) {
 	list *lptr = NULL;
 	msg *message = NULL;
 
+	if (!pl_is_exist(msg_name))
+		return ;
+
 	lptr = pl_get_node(msg_name);
 
 	// free data
