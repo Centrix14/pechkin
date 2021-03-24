@@ -94,8 +94,10 @@ void pl_remove(char *msg_name) {
 	free(message);
 
 	// unlink node
-	lptr->prev->next = lptr->next;
-	lptr->next->prev = lptr->prev;
+	if (lptr->prev)
+		lptr->prev->next = lptr->next;
+	if (lptr->next)
+		lptr->next->prev = lptr->prev;
 
 	free(lptr);
 }
