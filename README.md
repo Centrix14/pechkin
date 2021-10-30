@@ -23,6 +23,9 @@ Pechkin is a very simple library it consists of a very small set of functions:
 + `pl_is_exist(char *msg_name)` - check if such a message exists
   - `msg_name` - message name
 
++ `pl_get_msg_list()` - get a pointer to a list of messages
++ `pl_set_msg_list(list *new_msg_list)` - change the pointer to the message list
+
 ## How do I add it to my project?
 1. To start, run the following command:
 
