@@ -43,4 +43,4 @@ git clone --recursive https://github.com/Centrix14/pechkin.git
 4. That's it, enjoy the library!
 
 ---
-by Centrix14 19.03.2021
+by Centrix14 30.10.2021
