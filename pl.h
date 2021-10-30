@@ -19,4 +19,7 @@ void pl_free();
 
 int pl_is_exist(char *msg_name);
 
+list *pl_get_msg_list();
+void pl_set_msg_list(list *new_msg_list);
+
 #endif
