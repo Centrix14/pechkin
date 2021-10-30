@@ -103,3 +103,11 @@ void pl_remove(char *msg_name) {
 int pl_is_exist(char *msg_name) {
 	return pl_read(msg_name) ? 1 : 0;
 }
+
+list *pl_get_msg_list() {
+	return msg_list;
+}
+
+void pl_set_msg_list(list *new_msg_list) {
+	msg_list = new_msg_list;
+}
